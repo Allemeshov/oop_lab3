@@ -1,0 +1,6 @@
+*
+!./cmake-build-debug/input.txt
+!docs
+!fort
+!date.h
+!main.cpp
