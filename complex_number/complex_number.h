@@ -1,10 +1,12 @@
 #ifndef LAB3_COMPLEX_NUMBER_H
 #define LAB3_COMPLEX_NUMBER_H
 
+#define PI 3.14159
+
 #include <iostream>
 #include <stdexcept>
 #include <sstream>
-
+#include <cmath>
 
 class ComplexNumber {
 private:
@@ -24,6 +26,8 @@ public:
     void setRe(const float &re);
     float getIm();
     void setIm(const float &im);
+
+
 
     ComplexNumber &operator=(const ComplexNumber &cn);
     ComplexNumber &operator+=(const ComplexNumber &cn);

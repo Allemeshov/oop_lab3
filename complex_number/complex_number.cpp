@@ -1,5 +1,7 @@
 #include "complex_number.h"
 
+
+
 ComplexNumber::ComplexNumber() {
     re = 0.0;
     im = 0.0;
@@ -7,6 +9,7 @@ ComplexNumber::ComplexNumber() {
 ComplexNumber::ComplexNumber(const float &re, const float &im) {
     this->re = re;
     this->im = im;
+
 }
 ComplexNumber::ComplexNumber(const ComplexNumber &cn) {
     this->re = cn.re;
